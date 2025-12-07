@@ -1,16 +1,156 @@
-# React + Vite
+# Fluxify Zest — Image & PDF Utility
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![App Screenshot](screenshots/home_page.png)
 
-Currently, two official plugins are available:
+**Live Demo:** [https://fluxify-zest.web.app](https://fluxify-zest.web.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Fluxify Zest is a lightweight utility app for converting, compressing, and manipulating images and PDFs. It provides a simple, fast interface for common tasks like image format conversion, batch compression, and basic PDF operations.
 
-## Expanding the ESLint configuration
+The app is built with privacy in mind — all processing happens locally on the user's device and no files are stored or transmitted to external servers.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+* Image conversion between common formats (PNG, JPG, WEBP, etc.)
+* Image compression (single & batch)
+* PDF tools: merge, split, convert images to PDF
+* Drag & drop or file-picker upload support
+* Preview of input and output files
+* Local processing — **no data stored or shared**
+
+---
+
+## Privacy
+
+**Privacy First.**
+
+* No files are uploaded to any server.
+* No user data, file metadata, or usage logs are stored.
+* All processing occurs on the user's device (in-browser/local), giving you full control over your files.
+
+---
+
+## Screenshots
+
+* `screenshots/home_page.png` — Main dashboard
+
+![App Screenshot](screenshots/home_page.png)
+
+* `screenshots/image_convert.png` — Image conversion UI
+
+![App Screenshot](screenshots/image_convert.png)
+
+* `screenshots/image_compress.png` — Compression options
+
+![App Screenshot](screenshots/image_compress.png)
+
+* `screenshots/img_pdf.png` — Image to PDF Conversion
+
+![App Screenshot](screenshots/img_pdf.png)
+
+---
+
+## Quick Start (for developers)
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/vsmidhun21/utility_app.git
+cd utility_app
+```
+
+2. Install dependencies (example using npm):
+
+```bash
+npm install
+```
+
+3. Run locally:
+
+```bash
+npm start
+```
+
+4. Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## Deployment
+
+This project is hosted on Firebase Hosting (or similar). Your live demo is available at: [https://fluxify-zest.web.app](https://fluxify-zest.web.app)
+
+If you want to redeploy:
+
+```bash
+# install firebase tools if not already installed
+npm install -g firebase-tools
+
+# login and deploy
+firebase login
+firebase init hosting
+firebase deploy --only hosting
+```
+
+---
+
+## Usage
+
+1. Open the app in your browser (or run locally).
+2. Select image(s) or PDF(s) using drag & drop or the file picker.
+3. Choose the operation (Convert, Compress, Merge, Split).
+4. Preview the output and download — everything runs locally.
+
+---
+
+## File Structure (suggested)
+
+```
+fluxify-zest/
+├─ public/
+│  ├─ index.html
+│  └─ ...
+├─ src/
+│  ├─ components/
+│  ├─ utils/
+│  └─ App.js
+├─ screenshots/
+│  ├─ overview.png
+│  ├─ convert.png
+│  ├─ compress.png
+│  └─ pdf-tools.png
+├─ README.md
+└─ package.json
+```
+
+---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome. Please open an issue or submit a pull request on the repository.
+
+---
+
+## License
+
+This project is released under the MIT License. See `LICENSE` for details.
+
+---
+
+## Contact
+
+Created by Midhun
+
+* **Email:** [your-email@example.com](mailto:midhun21@zohomail.in)
+* **Portfolio:** [https://vsmidhun21.github.io/](https://vsmidhun21.github.io)
+* **LinkedIn:** [https://www.linkedin.com/in/midhun-v-s/](https://www.linkedin.com/in/midhun-v-s)
+* **Instagram:** [https://instagram.com/midhun_v_s_](https://instagram.com/midhun_v_s_)
+

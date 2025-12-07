@@ -19,6 +19,10 @@ export default function ContactSupport() {
 
     const [status, setStatus] = useState(false);
 
+    const emailService = import.meta.env.Email_Service;
+    const emailTemplate = import.meta.env.Email_Template;
+    const secretKey = import.meta.env.Email_Secrect;
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -39,14 +43,14 @@ export default function ContactSupport() {
 
         emailjs
             .send(
-                "service_evlrftk",
-                "template_daicwz9",
+                emailService,
+                emailTemplate,
                 {
                     from_name: form.name,
                     from_email: form.email,
                     message: form.message,
                 },
-                "vRA0iFDEQ52D4y_UO"
+                secretKey
             )
             .then(
                 () => {
