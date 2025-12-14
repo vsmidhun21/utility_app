@@ -149,7 +149,7 @@ This project is released under the MIT License. See `LICENSE` for details.
 
 Created by Midhun
 
-* **Email:** [your-email@example.com](mailto:midhun21@zohomail.in)
+* **Email:** [midhun21@zohomail.in](mailto:midhun21@zohomail.in)
 * **Portfolio:** [https://vsmidhun21.github.io/](https://vsmidhun21.github.io)
 * **LinkedIn:** [https://www.linkedin.com/in/midhun-v-s/](https://www.linkedin.com/in/midhun-v-s)
 * **Instagram:** [https://instagram.com/midhun_v_s_](https://instagram.com/midhun_v_s_)
